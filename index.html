@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>NUTRIFRUIT</title>
+</head>
+
+<body>
+    <header>
+        <div class="search-bar">
+            <input type="text" id="text-box" placeholder="Search For Fruit">
+            <button>Go!</button>
+        </div>
+    </header>
+    <main>
+        <section id="notif-text-box">
+            <p>Viewing facts on [FRUIT NAME]</p>
+        </section>
+        <section class="nutrition-info-box">
+            <div class="box1">
+                <h1>Nutrition Facts</h1>
+
+            </div>
+            <div class="block-line-thick"></div>
+            <div class="box2">
+                <h3>Amount per serving</h3>
+                <div class="calories-info">
+                    <h2>Calories</h2>
+                    <h2 id="calorie-amt">0</h2>
+                </div>
+            </div>
+            <div class="block-line-thin"></div>
+            <div class="box3">
+                <h3 style="text-align: right;">Grams</h3>
+                <div class="food-group">
+                    <p class="food-group-title">Total Fat</p>
+                    <p id="fat-grams" class="gram-value">0g</p>
+                </div>
+                <div class="food-group">
+                    <p class="food-group-title">Cholesterol</p>
+                    <p id="cho-grams" class="gram-value">0g</p>
+                </div>
+                <div class="food-group">
+                    <p class="food-group-title">Sodium</p>
+                    <p id="sod-grams" class="gram-value">0g</p>
+                </div>
+                <div class="food-group">
+                    <p class="food-group-title">Total Carbohydrate</p>
+                    <p id="carb-grams" class="gram-value">0g</p>
+                </div>
+                <div class="food-group">
+                    <p class="food-group-title">Total Sugars</p>
+                    <p id="sugar-grams" class="gram-value">0g</p>
+                </div>
+                <div class="food-group">
+                    <p class="food-group-title">Protein</p>
+                    <p id="pro-grams" class="gram-value">0g</p>
+                </div>
+            </div>
+            <div class="block-line-thick"></div>
+            <div class="box4">
+                <div class="food-group">
+                    <p>Fruit Family</p>
+                    <p id="family-text" class="info-value">Default</p>
+                </div>
+                <div class="food-group">
+                    <p>Fruit Genus</p>
+                    <p id="family-text" class="info-value">Default</p>
+                </div>
+            </div>
+            <div class="block-line-thin"></div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+    <!-- script file: -->
+    <script src="script.js"></script>
+</body>
+
+</html>
