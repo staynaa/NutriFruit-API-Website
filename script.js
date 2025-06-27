@@ -10,3 +10,18 @@ const proGramText = document.getElementById("pro-grams");
 
 const familyText = document.getElementById("family-text");
 const genusText = document.getElementById("genus-text");
+
+async function getFruit(){
+    try{
+        const response = await fetch("https://www.fruityvice.com/api/fruit/apple")
+    
+        // if(response){
+
+        // }
+        const data = await response.json();
+        console.log(data);
+    }
+    catch(error){
+        console.error(error);
+    }
+}
